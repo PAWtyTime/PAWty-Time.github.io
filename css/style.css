@@ -132,6 +132,7 @@ a:focus {
 .sub_page .hero_area .bg-box img {
   width: 100%;
   height: 100%;
+  opacity: 80%;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: right top;
