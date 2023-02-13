@@ -6249,14 +6249,14 @@ a.close.disabled {
 
 @media (prefers-reduced-motion: reduce) {
   .carousel-item {
-    transition: transform 0.6s ease-in-out;
+    transition: none;
   }
 }
 
 .carousel-item.active,
 .carousel-item-next,
 .carousel-item-prev {
-  display: block;
+  display: auto ;
 }
 
 .carousel-item-next:not(.carousel-item-left),
