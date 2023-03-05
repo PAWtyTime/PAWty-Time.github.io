@@ -171,7 +171,7 @@ body {
 }
 
 .main-text-button a {
-  font-size: 13px;
+  font-size: 16px;
   color: #fff;
   font-weight: 600;
   transition: all .3s;
@@ -219,6 +219,7 @@ header
 
 .background-header {
   background-color: #fff;
+  opacity: 0.9;
   height: 80px!important;
   position: fixed!important;
   top: 0px;
@@ -859,7 +860,6 @@ about
 
 #about {
   background: #fff0b2;
-  margin-top: 20px;
   padding: 100px 0px 0px 0px;
   position: relative;
   z-index: 9;
@@ -1196,16 +1196,16 @@ Special Area
 
 /*
 ---------------------------------------------
-offers
+gallery
 ---------------------------------------------
 */
 
-#offers {
+#gallery {
   background-color: #fffafa;
   padding: 120px 0px;
 }
 
-#offers .section-heading {
+#gallery .section-heading {
   margin-bottom: 80px;
 }
 
@@ -1220,22 +1220,22 @@ offers
 }
 
 .card1 {
-  background-image: url(../images/menu-item-01.jpg);
+  background-image: url(../images/gallery-item-01.png);
 }
 .card2 {
-  background-image: url(../images/menu-item-02.jpg);
+  background-image: url(../images/gallery-item-02.png);
 }
 .card3 {
-  background-image: url(../images/menu-item-03.jpg);
+  background-image: url(../images/gallery-item-03.png);
 }
 .card4 {
-  background-image: url(../images/menu-item-04.jpg);
+  background-image: url(../images/gallery-item-04.png);
 }
 .card5 {
-  background-image: url(../images/menu-item-05.jpg);
+  background-image: url(../images/gallery-item-05.png);
 }
 .card6 {
-  background-image: url(../images/menu-item-06.jpg);
+  background-image: url(../images//gallery-item-06.png);
 }
 
 .info {
@@ -1267,7 +1267,7 @@ offers
   color: #fff;
 }
 
-#offers .price h6 {
+#gallery .price h6 {
   position: absolute;
   width: 70px;
   height: 70px;
@@ -1280,17 +1280,18 @@ offers
   line-height: 70px;
 }
 
-#offers .card .main-text-button {
+#gallery .card .main-text-button {
+  width: 100%;
   margin-left: 30px;
   margin-top: 20px;
   padding-bottom: 30px;
 }
 
-#offers .owl-menu-item {
+#gallery .owl-menu-item {
   position: relative;
 }
 
-#offers .owl-nav {
+#gallery .owl-nav {
   text-align: center;
   position: absolute;
   width: 100%;
@@ -1298,21 +1299,21 @@ offers
   transform: translateY(5px);
 }
 
-#offers .owl-dots {
+#gallery .owl-dots {
   display: none;
 }
     
-#offers .owl-nav .owl-prev{
+#gallery .owl-nav .owl-prev{
   margin-right: 10px;
   outline: none;
 }
 
-#offers .owl-nav .owl-prev span,
-#offers .owl-nav .owl-next span {
+#gallery .owl-nav .owl-prev span,
+#gallery .owl-nav .owl-next span {
   opacity: 0;
 }
 
-#offers .owl-nav .owl-prev:before {
+#gallery .owl-nav .owl-prev:before {
   display: inline-block;
   font-family: "JasonHandwriting1-Regular",'FontAwesome';
   color: #f6995f;
@@ -1321,30 +1322,30 @@ offers
   content: '\f104';
 }
 
-#offers .owl-nav .owl-prev {
+#gallery .owl-nav .owl-prev {
   opacity: 0.75;
   transition: all .5s;
 }
 
-#offers .owl-nav .owl-prev:hover {
+#gallery .owl-nav .owl-prev:hover {
   opacity: 1;
 }
 
-#offers .owl-nav .owl-next {
+#gallery .owl-nav .owl-next {
   opacity: 0.75;
   transition: all .5s;
 }
 
-#offers .owl-nav .owl-next:hover {
+#gallery .owl-nav .owl-next:hover {
   opacity: 1;
 }
 
-#offers .owl-nav .owl-next{
+#gallery .owl-nav .owl-next{
   margin-left: 10px;
   outline: none;
 }
 
-#offers .owl-nav .owl-next:before {
+#gallery .owl-nav .owl-next:before {
   display: inline-block;
   font-family: "JasonHandwriting1-Regular",'FontAwesome';
   color: #f6995f;
@@ -1383,7 +1384,6 @@ reservation
 }
 
 #reservation {
-  margin-top: 120px;
   padding: 120px 0px;
   background-image: url(../images/reservation-bg.jpg);
   background-position: center center;
@@ -1639,11 +1639,11 @@ responsive
     margin-left: 0px;
     margin-top: 30px;
   }
-  #offers .tabs-content .left-list {
+  #gallery .tabs-content .left-list {
     margin-right: 0px;
   }
 
-  #offers .tabs-content .right-list {
+  #gallery .tabs-content .right-list {
     margin-left: 0px;
   }
   footer .right-text-content {
