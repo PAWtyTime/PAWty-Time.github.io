@@ -1362,6 +1362,32 @@ gallery
 
 /* 
 ---------------------------------------------
+position
+--------------------------------------------- 
+*/
+#position {
+  padding: 120px 0px;
+  background: #fff0b2;
+  /* background-image: url(../images/reservation-bg.jpg); */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.right-content {
+  text-align: center; /* 調整圖片水平置中 */
+  margin-top: 30px;
+}
+
+.thumb img {
+  max-width: 110%; /* 讓圖片寬度自動調整以符合容器大小 */
+}
+
+
+
+/* 
+---------------------------------------------
 reservation
 --------------------------------------------- 
 */
