@@ -880,13 +880,14 @@ about
 
 #about .right-content {
   margin-left: 30px;
+  margin-bottom: 30px;
 }
 
 #about .right-content .thumb {
   position: relative;
 }
 
-#about .right-content .thumb a {
+/* #about .right-content .thumb a {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -903,7 +904,7 @@ about
 
 #about .right-content .thumb a:hover {
   opacity: .9;
-}
+} */
 
 
 /*
@@ -1373,11 +1374,15 @@ position
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+#position .section-heading{
+  width: 100%;
+  text-align: center;
+  color: #f6995f;
+  padding-bottom: 50px;
+}
 
 .right-content {
   text-align: center; /* 調整圖片水平置中 */
-  margin-top: 30px;
 }
 
 .thumb img {
