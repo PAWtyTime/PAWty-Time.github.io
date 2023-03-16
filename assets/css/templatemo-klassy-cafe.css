@@ -1201,8 +1201,8 @@ Specials
 }
 
 #specials .nav-item {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  /* padding-top: 20px; */
+  padding-bottom: 30px;
 }
 
 #specials {
@@ -1267,46 +1267,31 @@ Specials
   }
 }
 
-
-/*
----------------------------------------------
-gallery
----------------------------------------------
-*/
-
-#gallery {
-  background-color: #fffafa;
-  padding: 120px 0px;
-}
-
-#gallery .section-heading {
-  margin-bottom: 80px;
-}
 .modal-dialog{
   font-size: 20px;
   font-weight: 600;
   color:#f6995f
 }
 .button{
-  width:500px;
-  height:500px;
-  border:3px solid #f6995f;
+  width:1100px;
+  height:377px;
+  border:none;
   background-size: cover;
 }
 .button:hover{
   opacity:0.8
 }
 .button1{
-  background-image: url(../images/gallery-item-01.png);
+  background-image: url(../images/dog/playground/gallery-01.jpg);
 }
 .button2{
-  background-image: url(../images/gallery-item-02.png);
+  background-image: url(../images/dog/playground/gallery-02.jpg);
 }
 .button3{
-  background-image: url(../images/gallery-item-03.png);
+  background-image: url(../images/dog/playground/gallery-03.jpg);
 }
 .button4{
-  background-image: url(../images/gallery-item-04.png);
+  background-image: url(../images/dog/playground/gallery-04.jpg);
 }
 .button5{
   background-image: url(../images/gallery-item-05.png);
