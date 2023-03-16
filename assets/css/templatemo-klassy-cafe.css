@@ -1043,14 +1043,6 @@ menu
   margin-right: 30px;
 }
 
-#menu .left-list {
-  margin-right: 30px;
-}
-
-#menu .right-list {
-  margin-left: 30px;
-}
-
 
 /*
 ---------------------------------------------
@@ -1060,7 +1052,7 @@ Activity Area
 
 #activity {
   background: #fff0b2;
-  padding-top: 120px;
+  padding-top: 100px;
 }
 
 #activity .section-heading {
@@ -1079,12 +1071,12 @@ Activity Area
   text-align: center;
   padding: 5px;
   transition: all .5s;
+  border: 2px solid #fff0b2;
   border-radius: 3px;
 }
 
 #activity .activity-item:hover {
-  border: 2px solid;
-  border-color: #f6995f;
+  border: 2px solid #f6995f;
 }
 
 #activity .activity-item:hover .down-content h4 {
@@ -1119,7 +1111,7 @@ Activity Area
   position: absolute;
   z-index: 11;
   top: 50%;
-  left: 50%;
+  left: 45%;
   transform: translate(-50%, -50%);
   width: 100%;
   transition: all .5s;
